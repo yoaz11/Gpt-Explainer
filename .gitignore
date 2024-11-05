@@ -1,0 +1,71 @@
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore dependency directories
+node_modules/
+vendor/
+
+# Ignore environment configuration files
+.env
+.env.local
+.env.*.local
+
+# Ignore log files
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore compiled code
+/dist/
+/build/
+/out/
+
+# Ignore temporary files and directories
+*.tmp
+*.swp
+*.bak
+*.backup
+*.sass-cache
+*.cache
+
+# Ignore IDE or editor-specific files
+.idea/
+.vscode/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+
+# Ignore Python cache and virtual environment
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# Ignore compiled libraries and binaries
+*.dll
+*.so
+*.dylib
+*.exe
+*.o
+*.a
+*.out
+
+# Ignore archive files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Ignore macOS system files
+.AppleDouble
+.LSOverride
+
+# Ignore package manager lock files (if you want)
+package-lock.json
+yarn.lock
+
